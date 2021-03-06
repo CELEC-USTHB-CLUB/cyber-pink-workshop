@@ -167,6 +167,7 @@ $password	=	 "root";
 $databaseConnection	= 	new PDO($dsn, $username, $password);
 ```
 [![PHP PDO](https://www.cloudways.com/blog/wp-content/uploads/How-to-use-PDO-with-PHP-Banner.jpg "PHP PDO")](https://www.cloudways.com/blog/wp-content/uploads/How-to-use-PDO-with-PHP-Banner.jpg "PHP PDO")
+
 ### Example of executing The SELECT SQL command
 ```php
 <?php
