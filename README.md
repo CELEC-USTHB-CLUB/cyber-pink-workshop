@@ -168,8 +168,7 @@ $databaseConnection	= 	new PDO($dsn, $username, $password);
 ```
 
 
-
-[![PHP PDO](https://www.cloudways.com/blog/wp-content/uploads/How-to-use-PDO-with-PHP-Banner.jpg "PHP PDO")](https://www.cloudways.com/blog/wp-content/uploads/How-to-use-PDO-with-PHP-Banner.jpg "PHP PDO")
+![PHP PDO](https://www.cloudways.com/blog/wp-content/uploads/How-to-use-PDO-with-PHP-Banner.jpg)
 
 ### Example of executing The SELECT SQL command
 ```php
