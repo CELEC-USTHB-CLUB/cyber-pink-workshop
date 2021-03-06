@@ -75,13 +75,13 @@ echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
 ```php
 $a = 2;
 if ($a >  1) {
-  echo "Hello";
+  	echo "Hello";
 } else {
-  echo  "Bye";
+	echo  "Bye";
 } 
 $b = 0;
 if ($a > $b) {
-	echo "a is bigger than b";
+  	echo "a is bigger than b";
 }elseif($a == $b) {
 	echo "a equal b";
 }else {
@@ -260,7 +260,7 @@ if (isset($_POST["message"]) AND isset($_POST["email"])) {
 </html>
 ```
 
-[========]
+
 # Resources
 - https://www.php.net/
 - https://www.php.net/manual/en/language.operators.comparison.php
