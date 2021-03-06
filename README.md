@@ -230,6 +230,7 @@ if (isset($_POST["message"]) AND isset($_POST["email"])) {
 > Returns A Formatted Date String
 
 - The prepare function
+
 [![PHP prepare](https://cms-assets.tutsplus.com/uploads/users/413/posts/36125/image/prepare-bind-execute.png "PHP prepare")](https://cms-assets.tutsplus.com/uploads/users/413/posts/36125/image/prepare-bind-execute.png "PHP prepare")
 
 # Building The messages page
