@@ -1,10 +1,10 @@
-#Definitions :tw-1f4da:
+#Definitions :closed_book:
 ### 1- What is back-end 
 [![FRONTEND-BACKEND](https://media.geeksforgeeks.org/wp-content/uploads/20190712131938/front-end-vs-back-end.png "FRONTEND-BACKEND")](https://media.geeksforgeeks.org/wp-content/uploads/20190712131938/front-end-vs-back-end.png "FRONTEND-BACKEND")
 
 In the computer world, the "backend" refers to any part of a website or software program that users do not see. It contrasts with the frontend, which refers to a program's or website's user interface. In programming terminology, the backend is the "data access layer," while the frontend is the "presentation layer."
 
-### 2- What is a server :tw-1f4bb:
+### 2- What is a server :computer:
 A web server is server software, or a system of one or more computers dedicated to running this software
 [![A web server](https://media.geeksforgeeks.org/wp-content/uploads/20190927155217/webserver.png "A web server")](https://media.geeksforgeeks.org/wp-content/uploads/20190927155217/webserver.png "A web server")
 
@@ -104,7 +104,7 @@ foreach($ages  as  $name => $age) {
 ?> 
 ```
 
-# Database :tw-1f4c1: :tw-1f4be:
+# Database :floppy_disk:
 
 ## What is a database 
 A database is an organized collection of structured information, or data, typically stored electronically in a computer system. A database is usually controlled by a database management system (DBMS). Together, the data and the DBMS, along with the applications that are associated with them, are referred to as a database system, often shortened to just database.
@@ -117,7 +117,7 @@ SQL is a programming language used by nearly all relational databases to query, 
 phpMyAdmin is a free and open source administration tool for MySQL and MariaDB. .
 Example of administration tools: mysql workbench, DBeaver ...
 
-# You first SQL code :tw-1f527:
+# You first SQL code :wrench:
 > 1. Create the mysql database in phpmyadmin
 2. import users.sql
 
@@ -179,7 +179,7 @@ foreach($users as $result) {
 	echo $result["name"]."<br/>";
 }
 ```
-# Build the contact form :tw-1f680:
+# Build the contact form :rocket:
 ##### 1- Change the name file from index.html to index.php
 When a given file contains PHP code, it must have a PHP extension. In most cases this is .php
 ##### 2 - Add the form tag to the template and change inputs names :
@@ -239,22 +239,22 @@ if (isset($_POST["message"]) AND isset($_POST["email"])) {
 	<title>Les messages</title>
 </head>
 <body>
-	<?php
-		$dsn 				=	 "mysql:host=127.0.0.1; dbname=cyber-pink";
-		$username 			=	 "root";
-		$password 			=	 "root";
-		$databaseConnection = 	new PDO($dsn, $username, $password);
-		$selectQuery 		=	"SELECT * FROM messages";
-		$messages 			=	$databaseConnection->query($selectQuery)->fetchAll();
-	?>
-	<? foreach($messages AS $message): ?>
-		<li>
-			<? echo $message["message"]; ?> par <? echo $message["email"]; ?>. 
-			<small>
-				<? echo $message["date"]; ?>
-			</small>
-		</li>
-	<? endforeach; ?>
+<?php
+    $dsn	=  "mysql:host=127.0.0.1; dbname=cyber-pink";
+    $username	=  "root";
+    $password	=  "root";
+    $databaseConnection	=    new PDO($dsn, $username, $password);
+    $selectQuery 	=    "SELECT * FROM messages";
+    $messages 		=    $databaseConnection->query($selectQuery)->fetchAll();
+?>
+<? foreach($messages AS $message): ?>
+   <li>
+       <? echo $message["message"]; ?> par <? echo $message["email"]; ?>. 
+       <small>
+           <? echo $message["date"]; ?>
+       </small>
+   </li>
+<? endforeach; ?>
 </body>
 </html>
 ```
