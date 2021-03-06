@@ -157,7 +157,7 @@ INSERT INTO users (name, age) VALUES ('oussama', 25)
 ```sql
 DELETE FROM users WHERE name = "oussama"
 ```
-## Using SQL through PHP :tw-1f50c:
+## Using SQL through PHP
 ### Create a connection 
 First of all, we need to establish a connection between PHP and our database (MariaDB in this examples)
 ```php
@@ -166,6 +166,9 @@ $username	=	 "root";
 $password	=	 "root";
 $databaseConnection	= 	new PDO($dsn, $username, $password);
 ```
+
+
+
 [![PHP PDO](https://www.cloudways.com/blog/wp-content/uploads/How-to-use-PDO-with-PHP-Banner.jpg "PHP PDO")](https://www.cloudways.com/blog/wp-content/uploads/How-to-use-PDO-with-PHP-Banner.jpg "PHP PDO")
 
 ### Example of executing The SELECT SQL command
