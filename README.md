@@ -1,4 +1,4 @@
-#Definitions :closed_book:
+# Definitions :closed_book:
 ### 1- What is back-end 
 [![FRONTEND-BACKEND](https://media.geeksforgeeks.org/wp-content/uploads/20190712131938/front-end-vs-back-end.png "FRONTEND-BACKEND")](https://media.geeksforgeeks.org/wp-content/uploads/20190712131938/front-end-vs-back-end.png "FRONTEND-BACKEND")
 
