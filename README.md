@@ -14,7 +14,7 @@ PHP is an amazing and popular language!
 It is powerful enough to be at the core of the biggest blogging system on the web (WordPress)!
 It is deep enough to run the largest social network (Facebook)!
 It is also easy enough to be a beginner's first server side language!
-# Start coding :tw-270f:
+# Start coding :memo:
 ## Learn PHP syntax by examples
 > ALL PHP FILES MUST HAVE .php EXTENSION
 
