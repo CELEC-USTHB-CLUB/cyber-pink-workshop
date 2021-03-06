@@ -159,6 +159,7 @@ DELETE FROM users WHERE name = "oussama"
 ```
 ## Using SQL through PHP
 ### Create a connection 
+![PHP PDO](https://www.cloudways.com/blog/wp-content/uploads/How-to-use-PDO-with-PHP-Banner.jpg)
 First of all, we need to establish a connection between PHP and our database (MariaDB in this examples)
 ```php
 $dsn	=	 "mysql:host=127.0.0.1; dbname=cyber-pink";
@@ -166,9 +167,6 @@ $username	=	 "root";
 $password	=	 "root";
 $databaseConnection	= 	new PDO($dsn, $username, $password);
 ```
-
-
-![PHP PDO](https://www.cloudways.com/blog/wp-content/uploads/How-to-use-PDO-with-PHP-Banner.jpg)
 
 ### Example of executing The SELECT SQL command
 ```php
