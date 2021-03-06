@@ -32,6 +32,7 @@ It is also easy enough to be a beginner's first server side language!
 $txt = "PHP";
 $age = 20;
 echo "I love $txt!";
+echo "I love ".$txt."!";
 ?> 
 ```
 ### Example 04 (Write PHP code inside a HTML code)
@@ -73,14 +74,14 @@ echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
 
 ```php
 $a = 2;
- if ($a >  1) {
+if ($a >  1) {
   echo "Hello";
 } else {
   echo  "Bye";
 } 
 $b = 0;
 if ($a > $b) {
-  echo "a is bigger than b";
+	echo "a is bigger than b";
 }elseif($a == $b) {
 	echo "a equal b";
 }else {
@@ -160,18 +161,18 @@ DELETE FROM users WHERE name = "oussama"
 ### Create a connection 
 First of all, we need to establish a connection between PHP and our database (MariaDB in this examples)
 ```php
-$dsn 						=	 "mysql:host=127.0.0.1; dbname=cyber-pink";
-$username 			=	 "root";
-$password 						=	 "root";
-$databaseConnection 	= 	new PDO($dsn, $username, $password);
+$dsn	=	 "mysql:host=127.0.0.1; dbname=cyber-pink";
+$username	=	 "root";
+$password	=	 "root";
+$databaseConnection	= 	new PDO($dsn, $username, $password);
 ```
 [![PHP PDO](https://www.cloudways.com/blog/wp-content/uploads/How-to-use-PDO-with-PHP-Banner.jpg "PHP PDO")](https://www.cloudways.com/blog/wp-content/uploads/How-to-use-PDO-with-PHP-Banner.jpg "PHP PDO")
 ### Example of executing The SELECT SQL command
 ```php
 <?php
-$dsn 				=	 "mysql:host=127.0.0.1; dbname=cyber-pink-test";
-$username 			=	 "root";
-$password 			=	 "root";
+$dsn	=	 "mysql:host=127.0.0.1; dbname=cyber-pink-test";
+$username	=	 "root";
+$password	=	 "root";
 $databaseConnection = 	new PDO($dsn, $username, $password);
 $sql = "SELECT * FROM users";
 $users = $databaseConnection->query($sql)->fetchAll();
@@ -185,10 +186,10 @@ When a given file contains PHP code, it must have a PHP extension. In most cases
 ##### 2 - Add the form tag to the template and change inputs names :
 ```php
 <form method="POST" action="">
-		<input type="text" name="message" placeholder="message">
-		<input type="text" name="email" placeholder="Email">
-		<button type="submit">Envoyer</button>
-	</form>
+	<input type="text" name="message" placeholder="message">
+	<input type="text" name="email" placeholder="Email">
+	<button type="submit">Envoyer</button>
+</form>
 ```
 ##### 3-  Write the PHP code to insert the message 
 > Add this at the top of the template
@@ -198,17 +199,17 @@ When a given file contains PHP code, it must have a PHP extension. In most cases
 $isMessageSaved = false;
 
 if (isset($_POST["message"]) AND isset($_POST["email"])) {
-	$message 			= 	$_POST["message"];
-	$email 				= 	$_POST["email"];
-	$dsn 				=	 "mysql:host=127.0.0.1; dbname=cyber-pink";
-	$username 			=	 "root";
-	$password 			=	 "root";
+	$message	= 	$_POST["message"];
+	$email 		= 	$_POST["email"];
+	$dsn 		=	 "mysql:host=127.0.0.1; dbname=cyber-pink";
+	$username 	=	 "root";
+	$password 	=	 "root";
 	$databaseConnection = 	new PDO($dsn, $username, $password);
-	$currentDate		=	date("Y-m-d");
-	$insertQuery 		=	"INSERT INTO 
-							messages (message, email, date) 
+	$currentDate	=	date("Y-m-d");
+	$insertQuery 	=	"INSERT INTO  messages (message, email, date) 
 							VALUES ('".$message."', '".$email."', '".$currentDate."')";
-	$execute 			=	$databaseConnection->prepare($insertQuery)->execute();
+							
+	$execute	=	$databaseConnection->prepare($insertQuery)->execute();
 	if($execute == true) {
 		$isMessageSaved = true;
 	}
