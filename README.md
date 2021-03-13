@@ -1,3 +1,14 @@
+# Requirements
+1 - A code editor Or IDE.
+2 - Local server.
+### For windows users
+Download and setup XAMPP: https://www.apachefriends.org/index.html
+### For mac os users:
+Download and setup MAMP: https://www.mamp.info/en/mac/
+### For Linux(Ubuntu > 16.04) users:
+-Setup the LAMP stack: https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04
+-Install PHPMYADMIN: https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-18-04 
+
 # Definitions :closed_book:
 ### 1- What is back-end 
 [![FRONTEND-BACKEND](https://media.geeksforgeeks.org/wp-content/uploads/20190712131938/front-end-vs-back-end.png "FRONTEND-BACKEND")](https://media.geeksforgeeks.org/wp-content/uploads/20190712131938/front-end-vs-back-end.png "FRONTEND-BACKEND")
