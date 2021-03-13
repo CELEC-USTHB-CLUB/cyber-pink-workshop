@@ -130,7 +130,7 @@ phpMyAdmin is a free and open source administration tool for MySQL and MariaDB. 
 Example of administration tools: mysql workbench, DBeaver ...
 
 # You first SQL code :wrench:
-> 1. Create the mysql database in phpmyadmin
+> 1. Create the database in phpmyadmin
 2. import users.sql
 
 ## Select data
