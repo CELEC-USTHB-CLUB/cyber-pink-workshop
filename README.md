@@ -1,6 +1,6 @@
 # Requirements
-1 - A code editor Or IDE.
-2 - Local server.
+-A code editor Or IDE.
+-Local server.
 ### For windows users
 Download and setup XAMPP: https://www.apachefriends.org/index.html
 ### For mac os users:
