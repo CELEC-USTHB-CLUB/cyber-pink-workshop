@@ -16,7 +16,7 @@ Download and setup MAMP: https://www.mamp.info/en/mac/
 In the computer world, the "backend" refers to any part of a website or software program that users do not see. It contrasts with the frontend, which refers to a program's or website's user interface. In programming terminology, the backend is the "data access layer," while the frontend is the "presentation layer."
 
 ### 2- What is a server :computer:
-A web server is server software, or a system of one or more computers dedicated to running this software
+A web server is a computer, or a system of one or more computers dedicated to running a web server software
 [![A web server](https://media.geeksforgeeks.org/wp-content/uploads/20190927155217/webserver.png "A web server")](https://media.geeksforgeeks.org/wp-content/uploads/20190927155217/webserver.png "A web server")
 
 ### 3- What is php 
