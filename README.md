@@ -3,7 +3,7 @@ Welcome to today's workshop!
 Today you will learn everything about websites and how they are built.
 At the end of the workshop, you will be able to create a personal or professional portfolio. 
 
-### What is a Portfolio ?
+### What is a Portfolio?
 
 A portfolio is a personal record in which an individual's previous learning and experience is identified and demonstrated for recognition by an educational institution or employer. It differs from a resume in the sense that the information it contains is constructed with a purpose, such as a job application, and it must also present support for the individual's learning.
 
@@ -12,7 +12,7 @@ A portfolio is a personal record in which an individual's previous learning and 
 [![portfolio](https://i.postimg.cc/4d9cDctM/163074196-1066717383820678-5219087853678590839-n.png "portfolio")](https://i.postimg.cc/4d9cDctM/163074196-1066717383820678-5219087853678590839-n.png "portfolio")
 ------------
 
-# Requirements
+# Requirements ⚙️
 Code editor Or IDE And local server.
 
 - Code editor.
@@ -54,7 +54,7 @@ Download and setup MAMP: https://www.mamp.info/en/mac/
 -Setup the LAMP stack: https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04
 -Install PHPMYADMIN: https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-18-04 
 
-# Definition
+# Definitions :closed_book:
 ### What is a web site ?
 A website is a set of web pages viewable in a browser, these pages are connected by links that allow you to move from one to another. In general, we recognize a website to the comparability of the design of its pages.
 
@@ -769,4 +769,5 @@ if (isset($_POST["message"]) AND isset($_POST["email"])) {
 - https://www.php.net/manual/en/function.isset.php
 - https://www.php.net/manual/en/pdo.prepare.php
 - https://www.w3schools.com/php/php_superglobals_post.asp
+- https://www.oreilly.com/library/view/php-mysql/9781449355517/ch01.html
 
