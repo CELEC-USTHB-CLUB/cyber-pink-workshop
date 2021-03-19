@@ -15,8 +15,6 @@ A portfolio is a personal record in which an individual's previous learning and 
 # Requirements
 Code editor Or IDE And local server.
 
-
-# Requirements
 - Code editor.
 
 [![code editor](https://i.postimg.cc/T2jQDQ5M/Capture.png "code editor")](http:https://i.postimg.cc/T2jQDQ5M/Capture.png// "code editor")
