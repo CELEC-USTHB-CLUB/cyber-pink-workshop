@@ -23,7 +23,7 @@ Code editor Or IDE And local server.
 
 [![web navigator](https://i.postimg.cc/fbLTxHRH/Capture1.png "web navigator")](httphttps://i.postimg.cc/fbLTxHRH/Capture1.png:// "web navigator")
 
-### Setup the local server
+### Setup VSCODE or Sublime text :notebook: :pencil2:
 #### For windows users
 - Download Visual studio: https://code.visualstudio.com/#alt-downloads
 - Download sublime text: https://www.sublimetext.com/3
@@ -32,7 +32,20 @@ Code editor Or IDE And local server.
 - Download Visual studio: https://code.visualstudio.com/#alt-downloads
 - Download sublime text: https://www.sublimetext.com/3
 
-## Setup the code editor
+#### More code editors
+- http://brackets.io/
+- https://notepad-plus-plus.org/downloads/
+- https://atom.io/
+
+### Why are we installing a code editor? 🤔
+
+You might be wondering why we are installing this special code editor software, rather than using something like Word or Notepad.
+
+The first reason is that code needs to be plain text, and the problem with programs like Word and Textedit is that they don't actually produce plain text, they produce rich text (with fonts and formatting), using custom formats like RTF (Rich Text Format).
+
+The second reason is that code editors are specialized for editing code, so they can provide helpful features like highlighting code with color according to its meaning, or automatically closing quotes for you.
+
+## Setup the local server
 ### For windows users
 Download and setup XAMPP: https://www.apachefriends.org/index.html
 ### For mac os users:
