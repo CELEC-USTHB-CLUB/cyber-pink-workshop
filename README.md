@@ -117,7 +117,7 @@ il suffit de suivez les étapes suivants:
     </html>
 ```
 
-# START CODING
+# START CODING <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 ------------
 ### Learn HTML TAGs   By Examples
 ------------
@@ -511,7 +511,7 @@ It is also easy enough to be a beginner's first server side language!
 
 [![A web server](https://www.oreilly.com/library/view/php-mysql/9781449355517/httpatomoreillycomsourceoreillyimages1416279.png "PHP in the server")](https://www.oreilly.com/library/view/php-mysql/9781449355517/httpatomoreillycomsourceoreillyimages1416279.png "PHP in the server")
 
-# Start coding :memo:
+# Start coding :memo: <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 ## Learn PHP syntax by examples
 > ALL PHP FILES MUST HAVE .php EXTENSION
 
