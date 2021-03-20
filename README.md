@@ -521,7 +521,7 @@ It is also easy enough to be a beginner's first server side language!
 // PHP code goes here
 ?> 
 ```
-### Example 02 (Define a variables
+### Example 02 (Define a variable)
 > A variable starts with the $ sign, followed by the name of the variable. A variable name must start with a letter or the underscore character. A variable name cannot start with a number. A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
 
 ```php
@@ -532,6 +532,7 @@ echo "I love $txt!";
 echo "I love ".$txt."!";
 ?> 
 ```
+<img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/meme.png" title="Meme" alt="Please refresh the page if the meme doesn't show up." height="350">
 ### Example 04 (Write PHP code inside a HTML code)
 ```php
  <!DOCTYPE html>
