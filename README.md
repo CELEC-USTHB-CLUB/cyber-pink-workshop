@@ -533,6 +533,7 @@ echo "I love ".$txt."!";
 ?> 
 ```
 <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/meme.png" title="Meme" alt="Please refresh the page if the meme doesn't show up." height="350">
+
 ### Example 04 (Write PHP code inside a HTML code)
 ```php
  <!DOCTYPE html>
