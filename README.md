@@ -2,7 +2,9 @@
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
 ![PHP](https://img.shields.io/badge/-PHP-1572B6?style=flat-square&logo=php)
 ![PHP](https://img.shields.io/badge/-MariaDB-black?style=flat-square&logo=mariadb)
-<h2> <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> Hi, welcome! </h2>
+
+<h1> <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> Hi, welcome! </h1>
+
 # Introduction:
 Welcome to today's workshop!
 Today you will learn everything about websites and how they are built.
