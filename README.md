@@ -765,7 +765,7 @@ if (isset($_POST["message"]) AND isset($_POST["email"])) {
 ```
 
 
-# Resources <img src="https://i.giphy.com/media/XZgKVgWXxZ6o2BFd19/giphy.webp" width="40" />
+# Resources <iframe src="https://giphy.com/embed/3o84U1nWRzyqOEOKpa" width="50" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 - https://www.w3schools.com
 - https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3
 - https://www.php.net/
