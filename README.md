@@ -3,7 +3,7 @@
 ![PHP](https://img.shields.io/badge/-PHP-1572B6?style=flat-square&logo=php)
 ![PHP](https://img.shields.io/badge/-MariaDB-black?style=flat-square&logo=mariadb)
 
-<h1> <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> Hi, welcome! </h1>
+<h1>Hi, welcome! <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /></h1>
 
 # Introduction:
 Welcome to today's workshop!
@@ -765,7 +765,7 @@ if (isset($_POST["message"]) AND isset($_POST["email"])) {
 ```
 
 
-# Resources
+# Resources <img src="https://i.giphy.com/media/XZgKVgWXxZ6o2BFd19/giphy.webp" width="40" />
 - https://www.w3schools.com
 - https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3
 - https://www.php.net/
