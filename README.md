@@ -163,10 +163,10 @@ hello world
 
 
 **Example 04** :  HTML Links.
->The HTML **a** tag defines a hyperlink for example [ celec-usthb.com/](celec-usthb.com/ " celec-usthb.com/")
+>The HTML **a** tag defines a hyperlink for example [ https://celec-usthb.com/](https://celec-usthb.com/ " https://celec-usthb.com/")
 
 ```html
-<a href="celec-usthb.com/"> celec website</a>
+<a href="https://celec-usthb.com/"> celec website</a>
 ```
 
 **Example 05** : HTML Lists (An unordered  list).
