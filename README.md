@@ -623,6 +623,11 @@ Example of administration tools: mysql workbench, DBeaver ...
 > 1. Create the database in phpmyadmin
 2. import users.sql
 
+## Insert data
+```sql
+INSERT INTO users (name, age) VALUES ('oussama', 25)
+```
+
 ## Select data
 
 ```sql
@@ -650,10 +655,7 @@ UPDATE users SET age = 20
 ```sql
 UPDATE users SET age = 18 WHERE age = 20
 ```
-## Insert data
-```sql
-INSERT INTO users (name, age) VALUES ('oussama', 25)
-```
+
 ## Delete data
 ```sql
 DELETE FROM users WHERE name = "oussama"
@@ -682,12 +684,17 @@ $users = $databaseConnection->query($sql)->fetchAll();
 foreach($users as $result) {
 	echo $result["name"]."<br/>";
 }
+?>
 ```
 # Build the contact form :rocket:
 ##### 1- Change the name file from index.html to index.php
 When a given file contains PHP code, it must have a PHP extension. In most cases this is .php
 ##### 2 - Add the form tag to the template and change inputs names :
 ```php
+<? if($isMessageSaved == true): ?>
+	<h2 style="color: #54c782;"><? echo "merci pour votre contact"; ?></h2>
+	<br/>
+<? endif; ?>
 <form method="POST" action="">
 	<input type="text" name="message" placeholder="message">
 	<input type="text" name="email" placeholder="Email">
@@ -701,21 +708,21 @@ When a given file contains PHP code, it must have a PHP extension. In most cases
 <?php
 $isMessageSaved = false;
 
-if (isset($_POST["message"]) AND isset($_POST["email"])) {
-	$message	= 	$_POST["message"];
-	$email 		= 	$_POST["email"];
-	$dsn 		=	 "mysql:host=127.0.0.1; dbname=cyber-pink";
-	$username 	=	 "root";
-	$password 	=	 "root";
-	$databaseConnection = 	new PDO($dsn, $username, $password);
-	$currentDate	=	date("Y-m-d");
-	$insertQuery 	=	"INSERT INTO  messages (message, email, date) 
-							VALUES ('".$message."', '".$email."', '".$currentDate."')";
-							
-	$execute	=	$databaseConnection->prepare($insertQuery)->execute();
-	if($execute == true) {
-		$isMessageSaved = true;
-	}
+if (isset($_POST["message"]) and isset($_POST["email"])) {
+    $message = $_POST["message"];
+    $email = $_POST["email"];
+    $dsn = "mysql:host=127.0.0.1; dbname=cyber-pink";
+    $username = "root";
+    $password = "root";
+    $databaseConnection = new PDO($dsn, $username, $password);
+    $currentDate = date("Y-m-d");
+    $insertQuery = "INSERT INTO  messages (message, email, date) 
+							VALUES ('" . $message . "', '" . $email . "', '" . $currentDate . "')";
+
+    $execute = $databaseConnection->prepare($insertQuery)->execute();
+    if ($execute == true) {
+        $isMessageSaved = true;
+    }
 }
 ?>
 ````
