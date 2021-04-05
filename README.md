@@ -65,9 +65,6 @@ Download and setup MAMP: https://www.mamp.info/en/mac/
 ### What is a web site ?
 A website is a set of web pages viewable in a browser, these pages are connected by links that allow you to move from one to another. In general, we recognize a website to the comparability of the design of its pages.
 
-
-[![web site](https://i.postimg.cc/Zq9VvSpV/Sans-titre.png "web site")](http://https://i.postimg.cc/Zq9VvSpV/Sans-titre.png "web site")
-
 ### How does a website work?
 The operation of the WEB is based on an exchange system called **client-server.**
 
@@ -661,7 +658,7 @@ UPDATE users SET age = 18 WHERE age = 20
 DELETE FROM users WHERE name = "oussama"
 ```
 ## Using SQL through PHP
-### Create a connection 
+### Create a database connection 
 
 First of all, we need to establish a connection between PHP and our database (MariaDB in this examples)
 ```php
