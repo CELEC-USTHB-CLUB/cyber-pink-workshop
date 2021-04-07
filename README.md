@@ -198,10 +198,11 @@ hello world
 <!--Comment-->
 ```
 **Example 09** : HTML input type Attribute
-> You can add comments to your HTML source by using the following syntax:
+> The <input> tag specifies an input field where the user can enter data.
 
 ```html
 <input type="text"  name="text"  placeholder="message">
+<input type="number"  name="age"  placeholder="Your age">
 ```
 **Example 10** : HTML input type Attribute
 > - The **button** tag defines a clickable button.
